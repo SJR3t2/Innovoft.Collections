@@ -6,24 +6,24 @@ using System.Threading;
 
 namespace Innovoft.Collections
 {
-	public sealed class Enumerator2<T> : IEnumerator<T>
+	public sealed class Layers2Enumerator2<T> : IEnumerator<T>
 	{
 		public IEnumerator<IEnumerable<T>> valuess;
 		private IEnumerator<T> values;
 
-		public Enumerator2(IEnumerable<IEnumerable<T>> valuess)
+		public Layers2Enumerator2(IEnumerable<IEnumerable<T>> valuess)
 		{
 			this.valuess = valuess.GetEnumerator();
 			this.values = this.valuess.MoveNext() ? this.valuess.Current.GetEnumerator() : null;
 		}
 
-		public Enumerator2(IEnumerator<IEnumerable<T>> valuess)
+		public Layers2Enumerator2(IEnumerator<IEnumerable<T>> valuess)
 		{
 			this.valuess = valuess;
 			this.values = this.valuess.MoveNext() ? this.valuess.Current.GetEnumerator() : null;
 		}
 
-		~Enumerator2()
+		~Layers2Enumerator2()
 		{
 			Dispose(disposing: false);
 		}
