@@ -11,7 +11,7 @@
 		<Authors>Steven Retz</Authors>
 		<Company>Innovoft</Company>
 		<Copyright>Copyright © Innovoft 2018</Copyright>
-		<PackageProjectUrl>https://github.com/innovoft/Innovoft.Collections</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/SJR3t2/Innovoft.Collections</PackageProjectUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<Description>Innovoft.Collections is a collection library that the container has methods to help do things in one method call instead of  two method calls</Description>
 		<PackageTags>containers collections container collection efficincy efficient efficient-algorithm</PackageTags>
