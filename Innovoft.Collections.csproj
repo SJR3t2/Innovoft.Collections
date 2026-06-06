@@ -13,7 +13,7 @@
 		<Copyright>Copyright © Innovoft 2018</Copyright>
 		<PackageProjectUrl>https://github.com/SJR3t2/Innovoft.Collections</PackageProjectUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<Description>Innovoft.Collections is a collection library that the container has methods to help do things in one method call instead of  two method calls</Description>
+		<Description>Innovoft.Collections is a collection library that the container has methods to help do things in one method call instead of multiple method calls</Description>
 		<PackageTags>containers collections container collection efficincy efficient efficient-algorithm</PackageTags>
   </PropertyGroup>
 	
