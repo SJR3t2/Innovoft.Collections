@@ -5,15 +5,15 @@ using System.Text;
 
 namespace Innovoft.Collections
 {
-	public sealed class Layers2Enumerable2<T> : IEnumerable<T>
+	public sealed class Layers2Enumerable<T> : IEnumerable<T>
 	{
 		private IEnumerable<IEnumerable<T>> valuess;
 
-		public Layers2Enumerable2()
+		public Layers2Enumerable()
 		{
 		}
 
-		public Layers2Enumerable2(IEnumerable<IEnumerable<T>> valuess)
+		public Layers2Enumerable(IEnumerable<IEnumerable<T>> valuess)
 		{
 			this.valuess = valuess;
 		}
@@ -22,7 +22,7 @@ namespace Innovoft.Collections
 
 		public IEnumerator<T> GetEnumerator()
 		{
-			var value = new Layers2Enumerator2<T>(valuess);
+			var value = new Layers2Enumerator<T>(valuess);
 			return value;
 		}
 
